@@ -20,7 +20,5 @@ export const User = ({ id, email, first_name, last_name, avatar, onClickInvite, 
     ) : (
       <HiPlus className="action" onClick={() => onClickInvite(id)} />
     )}
-
-    {/* <img className="action" src="/assets/plus.svg" alt="Action" /> */}
   </li>
 );
