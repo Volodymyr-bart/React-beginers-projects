@@ -1,4 +1,5 @@
 import "./index.scss";
+import ColectionsPhoto from "./pages/ColectionsPhoto/ColectionsPhoto";
 import Counter from "./pages/Counter/Counter";
 import CurrencyConvertor from "./pages/CurrencyConvertor/CurrencyConvertor";
 import Modal from "./pages/Modal/Modal";
@@ -13,6 +14,7 @@ function App() {
       {/* <Quiz /> */}
       {/* <UserApp /> */}
       {/* <CurrencyConvertor /> */}
+      <ColectionsPhoto />
     </>
   );
 }
