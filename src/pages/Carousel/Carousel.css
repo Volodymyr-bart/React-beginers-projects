@@ -1,0 +1,26 @@
+.main-container {
+  height: 150px;
+  width: 450px;
+}
+
+.window {
+  height: 100%;
+  width: 100%;
+}
+
+.all-pages-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: brown;
+}
+
+.page-1 {
+  background-color: bisque;
+}
+.page-2 {
+  background-color: rgb(50, 121, 143);
+}
+.page-3 {
+  background-color: rgb(125, 34, 119);
+}
